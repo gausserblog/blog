@@ -1,64 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>{{ .Title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter&display=swap" rel="stylesheet">
+  <title>{{ .Title }} - Gaussier</title>
   <style>
     body {
-      font-family: 'Inter', sans-serif;
-      background: #fff;
-      color: #111;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
+      background-color: #fdfcf5;
+      font-family: "MS Gothic", "Osaka", monospace;
+      color: #333;
+      padding: 2rem;
+      text-align: center;
+      position: relative;
+      overflow-x: hidden;
     }
-    .container {
-      max-width: 750px;
+
+    .side-gif {
+      position: fixed;
+      top: 100px;
+      width: 120px;
+      z-index: 0;
+    }
+
+    .side-gif.left {
+      left: 10px;
+    }
+
+    .side-gif.right {
+      right: 10px;
+    }
+
+    .content {
+      background-color: #fff;
+      max-width: 700px;
       margin: 0 auto;
       padding: 2rem;
+      border: 2px dashed #aa0000;
+      box-shadow: 0 0 8px #aaa;
+      text-align: left;
+      position: relative;
+      z-index: 1;
     }
+
     h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
+      color: #aa0000;
+      font-size: 36px;
+      margin-bottom: 1rem;
+      text-align: center;
     }
+
     .meta {
-      color: #888;
-      font-size: 0.9rem;
+      font-size: 14px;
+      color: #555;
       margin-bottom: 2rem;
+      text-align: center;
     }
-    .hero img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      margin-bottom: 2rem;
+
+    a {
+      color: #0000cc;
     }
-    .content img {
-      width: 100%;
-      height: auto;
-      margin: 2rem 0;
-      border-radius: 6px;
+
+    a:hover {
+      text-decoration: underline;
     }
-    .content p {
-      margin-bottom: 1.5rem;
-      font-size: 1.1rem;
+
+    img {
+      max-width: 100%;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+
+  <!-- 🌸 Add these GIFs locally or use external links -->
+  <img src="https://media.tenor.com/HHyhcUbFFjIAAAAi/cherry-blossom.gif" alt="Left Deco" class="side-gif left">
+  <img src="https://media.tenor.com/HHyhcUbFFjIAAAAi/cherry-blossom.gif" alt="Right Deco" class="side-gif right">
+
+  <div class="content">
     <h1>{{ .Title }}</h1>
-    <div class="meta">By {{ .Params.author }} — {{ .Date.Format "January 2, 2006" }}</div>
-    {{ with .Params.hero }}
-    <div class="hero">
-      <img src="{{ . | relURL }}" alt="Hero Image">
-    </div>
-    {{ end }}
-    <div class="content">
-      {{ .Content }}
-    </div>
+    <div class="meta">Published on {{ .Date.Format "2006-01-02" }}</div>
+
+    {{ .Content }}
+
+    <p style="margin-top: 3rem; text-align: center;">
+      <a href="{{ "/" | relURL }}">← Back to homepage</a>
+    </p>
   </div>
+
 </body>
 </html>

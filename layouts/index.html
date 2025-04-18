@@ -1,23 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
+  <link rel="icon" href="/img/gaus.png" type="image/png">
   <meta charset="UTF-8">
-  <title>{{ .Title }}</title>
+  <title>Gaussier</title>
+  <style>
+    body {
+      background-color: #fdfcf5;
+      font-family: "MS Gothic", "Osaka", monospace;
+      color: #333;
+      text-align: center;
+      padding: 2rem;
+      background-image: url("https://media.tenor.com/HHyhcUbFFjIAAAAi/cherry-blossom.gif");
+      background-repeat: repeat;
+    }
+
+.header {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1 {
+  font-size: 64px;
+  color: #aa0000;
+  text-shadow:
+    2px 2px 0 #fff,
+    4px 4px 0 #ffaaaa;
+  background-color: #ffffffcc;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 3px double #aa0000;
+  margin: 0 auto 1rem auto;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+    .divider {
+      margin: 1rem auto 2rem auto;
+    }
+
+    .post-list {
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 1rem;
+      background-color: #ffffffcc;
+      border: 2px dashed #aa0000;
+      box-shadow: 0 0 8px #aaa;
+    }
+
+    .post-list a {
+      display: block;
+      color: #0000cc;
+      text-decoration: none;
+      margin-bottom: 0.75rem;
+    }
+
+    .post-list a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>{{ .Title }}</h1>
-  <div>
-    {{ .Content }}
-  </div>
+<div class="header">
+  <h1>🌸 Gaussier 🌸</h1>
+</div>
+<img src="/img/gaus.png" alt="logo" width="200">
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXA2ZWlhazVzMjgzdGx3cmx1eGc0cHVjenBnZDhiZGxtZXoxYnM4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT8qAZcty5f0BEm2lO/giphy.gif" alt="Cherry Cat" width="300">
 
-  <h2>All Posts</h2>
-  <ul>
-    {{ range (where .Site.RegularPages "Section" "posts") }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ .Date.Format "Jan 2, 2006" }})
-      </li>
+  <div class="post-list">
+    {{ range .Site.RegularPages }}
+      <a href="{{ .RelPermalink }}">
+        {{ .Date.Format "2006-01-02" }} - {{ .Title }}
+      </a>
     {{ end }}
-  </ul>
+  </div>
 </body>
 </html>
-
