@@ -3,7 +3,7 @@
 <head>
   <link rel="icon" href="/img/gaus.png" type="image/png">
   <meta charset="UTF-8">
-  <title>Gaussier</title>
+  <title>Gausser</title>
   <style>
     body {
       background-color: #fdfcf5;
@@ -58,14 +58,34 @@ h1 {
     .post-list a:hover {
       text-decoration: underline;
     }
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #aa0000;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  z-index: 999;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
   </style>
 </head>
 <body>
 <div class="header">
-  <h1>🌸 Gaussier 🌸</h1>
+  <h1>🌸 Gausser 🌸</h1>
 </div>
-<img src="/img/gaus.png" alt="logo" width="200">
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXA2ZWlhazVzMjgzdGx3cmx1eGc0cHVjenBnZDhiZGxtZXoxYnM4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT8qAZcty5f0BEm2lO/giphy.gif" alt="Cherry Cat" width="300">
+<img src="/img/gaus.png" alt="logo" width="400">
 
   <div class="post-list">
     {{ range .Site.RegularPages }}
@@ -74,5 +94,10 @@ h1 {
       </a>
     {{ end }}
   </div>
+<!-- Footer Section -->
+<footer>
+  <p>Contact us at: <a href="mailto:info@gausser.com">info@gausser.com</a></p>
+</footer>
+
 </body>
 </html>
