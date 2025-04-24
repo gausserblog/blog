@@ -1,5 +1,5 @@
 ---
-title: "[Hist] Why Magnetism Matters in Watchmaking"
+title: "[ HIST ] Why Magnetism Matters in Watchmaking"
 date: 2025-04-12T21:59:10+03:00
 ---
 
@@ -14,12 +14,11 @@ However, with mechanical watches, it’s a different story. Mechanical watches a
 For anyone working near electrical machines, this became a huge issue in the 20th century. Since you "couldn’t just check your phone for the time" back then, the problem needed to be addressed by watch manufacturers. As always, necessity being the mother of all inventions, many solutions were born out of this challenge—shaping and transforming traditional watchmaking forever.
 
 When we speak about a watch being subjected to magnetism, we usually refer to a specific component: the hairspring. (This is not the only part that can be magnetized, but we’ll dive deeper into that in later posts.) The hairspring is part of the regulator in the mechanical watch. It regulates the rate of the watch’s power discharge. Without it being precise, the watch will lose power too quickly or too slowly, affecting the reliability and accuracy of the timepiece.
+[Here I go more in depth on this]({{< relref "hairspring-mag.md" >}})
 
 ![hairspring](/img/out.jpg)
 
 *(image from https://blog.pocketwatchdatabase.com)*
-
-*(In a follow-up post that I’ll link here, I’ll explain what happens to the metal when magnetized and why the regulator’s behavior becomes erratic.)*
 
 One of the pioneers of these innovations was Vacheron Constantin. They developed an early anti-magnetic watch in the 19th century, where they began experimenting with anti-magnetic materials like palladium.
 
