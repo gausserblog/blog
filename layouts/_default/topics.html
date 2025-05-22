@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }} - Gausser</title>
+  <style>
+    body {
+      background-color: #fdfcf5;
+      font-family: "MS Gothic", "Osaka", monospace;
+      color: #333;
+      padding: 2rem;
+      text-align: center;
+      position: relative;
+      overflow-x: hidden;
+      background-image: url("/img/background.png");
+      background-repeat: repeat;
+      background-size: auto;
+      background-attachment: fixed;
+    }
+
+    .side-gif {
+      position: fixed;
+      top: 100px;
+      width: 120px;
+      z-index: 0;
+    }
+
+    .side-gif.left {
+      left: 10px;
+    }
+
+    .side-gif.right {
+      right: 10px;
+    }
+
+    .content {
+      background-color: #fff;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem;
+      border: 2px dashed #aa0000;
+      box-shadow: 0 0 8px #aaa;
+      text-align: left;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      color: #aa0000;
+      font-size: 36px;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    a {
+      color: #0000cc;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+
+    <p style="margin-top: 3rem; text-align: center;">
+      <a href="{{ "/" | relURL }}">[ HOME ]</a>
+    </p>
+    <h1>{{ .Title }}</h1>
+    <div class="meta">Published on {{ .Date.Format "2006-01-02" }}</div>
+
+    {{ .Content }}
+
+    <p style="margin-top: 3rem; text-align: center;">
+      <a href="{{ "/" | relURL }}">← Back to homepage</a>
+    </p>
+  </div>
+
+</body>
+</html>
+
