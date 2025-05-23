@@ -1,14 +1,14 @@
 ---
-        title: "Orologi Topics"
-        date: 2025-05-22
-        layout: "topics"
-        ---
+title: "Orologi Topics"
+date: 2025-05-22
+layout: "topics"
+---
 
-        ## Topics from Selected Sections
+## Topics from Selected Sections
 
-        Last update 2025-05-22 23:41:20.154435
+Last update 2025-05-22 23:41:20.154435
 
-        - [Nuovo arrivo Rolex Day-Date 1802](https://orologi.forumfree.it/?t=80699711) — **Orologi - Vintage Rolex e Tudor**
+- [Nuovo arrivo Rolex Day-Date 1802](https://orologi.forumfree.it/?t=80699711) — **Orologi - Vintage Rolex e Tudor**
 - [Presentazione IWC ref. 5503](https://orologi.forumfree.it/?t=80675266) — **Orologi - Tasca e Ferroviari**
 - [Pareri su Cyma Dirty Dozen](https://orologi.forumfree.it/?t=80697368) — **Orologi - Militari**
 - [Nuovo arrivo omega](https://orologi.forumfree.it/?t=80700793) — **Orologi - Tasca e Ferroviari**
