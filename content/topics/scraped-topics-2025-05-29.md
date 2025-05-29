@@ -6,28 +6,29 @@ layout: "topics"
 
 ## Topics from Selected Sections
 
-Last update 2025-05-29 09:45:21.339054
+Last update 2025-05-29 10:26:59.054766
 
-- [Pareri incisione seriale Daytona 16520](https://orologi.forumfree.it/?t=80706071) — **Orologi - Vintage Rolex e Tudor**
-- [Un Longines Conquest per amico e tanti amici per un Longines Conquest](https://orologi.forumfree.it/?t=80703575) — **Orologi - Vintage**
-- [Temperamatite](https://orologi.forumfree.it/?t=80707381) — **Orologi - Vintage**
-- [Dubbi originalità bracciale Rolex President](https://orologi.forumfree.it/?t=80706772) — **Orologi - Vintage Rolex e Tudor**
-- [L'importanza dell'indotto](https://orologi.forumfree.it/?t=80692246) — **Orologi - Vintage**
-- [Sigle, marchi, sigilli dei produttori svizzeri di quadranti per gli orologi da polso.](https://orologi.forumfree.it/?t=80292478) — **Orologi - Vintage**
-- [Diver's vintage](https://orologi.forumfree.it/?t=71608461) — **Orologi - Vintage**
-- [sveglie vintage](https://orologi.forumfree.it/?t=80706130) — **Orologi - Vintage**
-- [New entry: Heuer Daytona](https://orologi.forumfree.it/?t=80692975) — **Orologi - Vintage**
-- [Parere quadrante Oysterdate Precision 6694](https://orologi.forumfree.it/?t=80705653) — **Orologi - Vintage Rolex e Tudor**
-- [Omega Tv Screen](https://orologi.forumfree.it/?t=79397208) — **Orologi - Vintage**
-- [Micro-rotori: Universal Genève, Patek Philippe e Buren](https://orologi.forumfree.it/?t=80701756) — **Orologi - Vintage**
-- [Il Tasca del giorno](https://orologi.forumfree.it/?t=80702163) — **Orologi - Tasca e Ferroviari**
-- [Ebel El Primero, 1982-1994, una piccola storia senza foto...](https://orologi.forumfree.it/?t=79448225) — **Orologi - Vintage**
-- [Omega Speedmaster - censimento](https://orologi.forumfree.it/?t=78933806) — **Orologi - Vintage**
-- [Mercoledì 28 maggio 1957](https://orologi.forumfree.it/?t=80706313) — **Orologi - Vintage**
-- [Martedì 27 maggio 2025: settiamo i calendari](https://orologi.forumfree.it/?t=80705289) — **Orologi - Vintage**
-- [Orologio da scrivania Juvenia Art Deco'](https://orologi.forumfree.it/?t=80701566) — **Orologi - Vintage**
 - [Viraggio a filamenti inserto rosso/blu](https://orologi.forumfree.it/?t=80703308) — **Orologi - Vintage Rolex e Tudor**
 - [Lanco Mod. 1100](https://orologi.forumfree.it/?t=80705395) — **Orologi - Vintage**
-- [Presentazione Seiko 7F38-6180 "Quantième"](https://orologi.forumfree.it/?t=80706132) — **Orologi - Vintage**
-- [Patek Philippe Calatrava 96](https://orologi.forumfree.it/?t=80705534) — **Orologi - Vintage**
+- [Il Tasca del giorno](https://orologi.forumfree.it/?t=80702163) — **Orologi - Tasca e Ferroviari**
+- [Omega Speedmaster - censimento](https://orologi.forumfree.it/?t=78933806) — **Orologi - Vintage**
+- [Diver's vintage](https://orologi.forumfree.it/?t=71608461) — **Orologi - Vintage**
+- [Orologio da scrivania Juvenia Art Deco'](https://orologi.forumfree.it/?t=80701566) — **Orologi - Vintage**
+- [Omega Chronostop - Censimento](https://orologi.forumfree.it/?t=80707535) — **Orologi - Vintage**
+- [Temperamatite](https://orologi.forumfree.it/?t=80707381) — **Orologi - Vintage**
+- [L'importanza dell'indotto](https://orologi.forumfree.it/?t=80692246) — **Orologi - Vintage**
+- [Micro-rotori: Universal Genève, Patek Philippe e Buren](https://orologi.forumfree.it/?t=80701756) — **Orologi - Vintage**
+- [Parere quadrante Oysterdate Precision 6694](https://orologi.forumfree.it/?t=80705653) — **Orologi - Vintage Rolex e Tudor**
+- [Omega Tv Screen](https://orologi.forumfree.it/?t=79397208) — **Orologi - Vintage**
+- [Ebel El Primero, 1982-1994, una piccola storia senza foto...](https://orologi.forumfree.it/?t=79448225) — **Orologi - Vintage**
+- [Sigle, marchi, sigilli dei produttori svizzeri di quadranti per gli orologi da polso.](https://orologi.forumfree.it/?t=80292478) — **Orologi - Vintage**
+- [Pareri incisione seriale Daytona 16520](https://orologi.forumfree.it/?t=80706071) — **Orologi - Vintage Rolex e Tudor**
 - [Giovedì 29 maggio:la tecnica](https://orologi.forumfree.it/?t=80707220) — **Orologi - Vintage**
+- [Presentazione Seiko 7F38-6180 "Quantième"](https://orologi.forumfree.it/?t=80706132) — **Orologi - Vintage**
+- [Omega dynamic](https://orologi.forumfree.it/?t=80707562) — **Orologi - Vintage**
+- [Martedì 27 maggio 2025: settiamo i calendari](https://orologi.forumfree.it/?t=80705289) — **Orologi - Vintage**
+- [Patek Philippe Calatrava 96](https://orologi.forumfree.it/?t=80705534) — **Orologi - Vintage**
+- [sveglie vintage](https://orologi.forumfree.it/?t=80706130) — **Orologi - Vintage**
+- [New entry: Heuer Daytona](https://orologi.forumfree.it/?t=80692975) — **Orologi - Vintage**
+- [Mercoledì 28 maggio 1957](https://orologi.forumfree.it/?t=80706313) — **Orologi - Vintage**
+- [Dubbi originalità bracciale Rolex President](https://orologi.forumfree.it/?t=80706772) — **Orologi - Vintage Rolex e Tudor**
